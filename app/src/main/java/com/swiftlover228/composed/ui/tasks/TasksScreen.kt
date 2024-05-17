@@ -80,6 +80,7 @@ fun TasksScreen(
                         contentDescription = "sort-tasks"
                     )
                 }
+
                 if (tasksState.tasks.any { it.completed }) {
                     IconButton(onClick = { onDeleteCompletedTasks?.invoke() }) {
                         Icon(

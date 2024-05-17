@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.hilt)
     kotlin("kapt")
     id("kotlin-parcelize")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -65,6 +66,7 @@ dependencies {
     // Dagger Hilt
     implementation(libs.hilt.android)
     implementation(libs.androidx.hilt.navigation.compose)
+    implementation(libs.firebase.auth.ktx)
     kapt(libs.hilt.compiler)
 
     // Coroutines
@@ -85,4 +87,8 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+
+    implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
+    implementation("com.google.firebase:firebase-analytics")
+
 }

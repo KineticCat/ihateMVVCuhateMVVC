@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "854379851758",
+    "project_id": "funnydbagain",
+    "storage_bucket": "funnydbagain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854379851758:android:bca33145228aa7dde3e8ff",
+        "android_client_info": {
+          "package_name": "com.swiftlover228.composed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB_HyZskZbfh7QhvXaAY1DR8Lh_NgTtXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
